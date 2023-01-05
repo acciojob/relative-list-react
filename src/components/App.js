@@ -1,16 +1,11 @@
-import React, {Component, useState} from "react";
-import '../styles/App.css';
+import React from 'react'
 
-class App extends Component {
-    render() {
-
-        return(
-            <div id="main">
+const App = () => {
+  return (
+    <div id="main">
                {/* Do not remove the main div */}
-            </div>
-        )
-    }
+    </div>
+  )
 }
 
-
-export default App;
+export default App
